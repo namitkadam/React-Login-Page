@@ -1,0 +1,60 @@
+.MianContainer{
+  background-color: #697184;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 20px;
+}
+.Wrapper{
+  width: 350px;
+  padding:  20px;
+  background-color: #f2f1ef;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Wrapper .HeadingTitle{
+  text-align: center;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  font-style: italic;
+}
+.Flex{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Flex label{
+  font-style: italic;
+  font-weight: 600;
+}
+.Intput{
+  height: 30px;
+  /* width: 250px; */
+}
+.BtnSumbmit{
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #413f3d;
+  border: unset;
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 15px;
+}
+.BtnSumbmit:hover{
+  background-color: #697184;
+}
+p{
+  margin: 0;
+  color: red;
+  font-size: .9em;
+}
+
+.form-Wrapper{
+  padding: 10px 0;
+}
